@@ -21,10 +21,6 @@ body, html{
     position: relative;
 }
 
-.x{
-    
-
-}
 
 .mediaContainer{
     
@@ -79,9 +75,4 @@ body, html{
 @keyframes fadeinout {
     100% { opacity: 0; }
     50% { opacity: 1; }
-}
-
-#logoImg{
-
-
 }
