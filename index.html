@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Living City</title>
+    <link rel="stylesheet" href="/wwwroot/css/mainpage.css">
+    <script src="/wwwroot/js/masonry.pkgd.js"></script>
+    <script src="/wwwroot/js/jquery-3.3.1.js"></script>
+    <script src="/wwwroot/js/jquery.masonry.min.js"></script>
+</head>
+
+<body>
+
+<Div id="landing" >
+    <div class="vid">
+        <iframe width="100%" height="95%" src="https://www.youtube.com/embed/aoEaYmkbDsI?controls=0?&autoplay=1"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="logo">
+
+        <img id="logoImg" src="/wwwroot/assets/image1.jpeg" height="100%" width="100%">
+
+    </div>
+</Div>
+
+
+    <div ID="below">
+
+        <div class="x">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/Rekekler.jpg">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/landscape_lads.jpg" >
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/lads_summer.jpg">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/landscape_couch_lads (1).jpg">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/bandy_lads.jpg">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/1434.jpg">
+            <img class="grid-item grid-item--sizeTwo" src="/wwwroot/assets/ericFace.jpg">
+            <div class="grid-item grid-item--sizeTwo" style="height:11%">
+                <div class="mediaContainer">
+                    <img class="sMedia" src="/wwwroot/assets/facebook-icon-png-732.png">
+                    <img class="sMedia" src="/wwwroot/assets/instagram-icon-965.png">
+                </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script>
+$('#below').masonry({
+  // options
+columnWidth:5,
+itemSelector: '.grid-item',
+percentPosition: true
+});
+</script>
+</html>
